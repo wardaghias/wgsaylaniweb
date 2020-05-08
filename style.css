@@ -1,0 +1,335 @@
+.header{
+    background-color: royalblue;
+    padding-bottom: 10px;
+    padding-top: -40px;
+    width: 100%;
+  
+}
+.two{
+    background-color: whitesmoke; 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+    height: 70px;
+}
+.two img{
+    width: 250px; 
+     height: 60px;
+       padding-left: 50px;
+      
+       margin-right: 90px;
+      margin-top: 5px;
+      margin-left: 50px;
+      
+}
+.two ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+    margin-top: -250px;
+  padding-left: 120px;
+    
+}
+.two ul li{
+    width: 80px;
+    padding-top: 10px; 
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor:pointer;
+-webkit-transition: color 0.9s;
+
+}
+.active, .two ul li:hover
+
+{
+	webkit-transition: color 1.9s;
+    background-color:royalblue ;
+    color: white ;
+    border-radius: 25px;
+    height: 40px;
+  
+} 
+.sub-menu-1{
+    width: 200px;
+    display: none;
+   position: fixed;
+   z-index: 9999;
+   background: transparent;
+	tranisition: 7.25s;
+}
+.two ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    text-align: left; 
+tranisition: 7.25s;
+  
+}
+ .two ul li:hover .sub-menu-1 ul{
+    display: block;
+     margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    padding-left: 0px;  
+tranisition: 7.25s;
+ 	
+}
+.two ul li:hover .sub-menu-1 ul li{
+    
+   tranisition: 7.25s;
+    color: black;
+    background-color: white;
+    text-align: left; 
+tranisition: 7.25s;
+}  
+.two ul li:hover .sub-menu-1 ul li:hover{
+    background-color:royalblue ;
+    width: 200px;
+    color: white ;
+    border-radius: 0px;
+    /* height: px; */
+tranisition: 7.25s;
+    }
+    
+.sub-menu-2{
+    display: none;
+width: 250px;
+ position: fixed;
+   z-index: 9999;
+   background: transparent;
+}
+.two ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    text-align: left; 
+   
+}
+ .two ul li:hover .sub-menu-2 ul{
+    display: block;
+     margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    padding-left: 0px;  
+}
+.two ul li:hover .sub-menu-2 ul li{
+     width: 250px; 
+   
+    color: black;
+    background-color: white;
+    text-align: left; 
+}  
+.two ul li:hover .sub-menu-2 ul li:hover{
+    background-color:royalblue ;
+    color: white ;
+    border-radius: 0px;
+    height: 35px;
+    }
+
+
+    
+    
+.sub-menu-3{
+    display: none;
+
+width: 200px;
+ position: fixed;
+   z-index: 9999;
+   background: transparent;
+}
+.two ul li:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    text-align: left; 
+   
+}
+ .two ul li:hover .sub-menu-3 ul{
+    display: block;
+     margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    padding-left: 0px;  
+}
+.two ul li:hover .sub-menu-3 ul li{
+     width: 200px; 
+   
+    color: black;
+    background-color: white;
+    text-align: left; 
+}  
+.two ul li:hover .sub-menu-3 ul li:hover{
+    background-color:royalblue ;
+    color: white ;
+    border-radius: 0px;
+    height: 30px;
+    }
+    
+.sub-menu-4{
+    display: none;
+width: 200px;
+
+ position: fixed;
+   z-index: 9999;
+   background: transparent;
+}
+.two ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    text-align: left; 
+   
+}
+ .two ul li:hover .sub-menu-4 ul{
+    display: block;
+     margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    padding-left: 0px;  
+}
+.two ul li:hover .sub-menu-4 ul li{
+     width: 200px; 
+   
+    color: black;
+    background-color: white;
+    text-align: left; 
+}  
+.two ul li:hover .sub-menu-4 ul li:hover{
+    background-color:royalblue ;
+    color: white ;
+    border-radius: 0px;
+    height: 30px;
+    }
+
+/* 
+.carousel-item{
+    margin-top: auto;
+    
+    height: 800px;
+} */
+
+.marque{
+    width: 90%;
+    background-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+     margin-left: 60px;
+    margin-right: 60px;  
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+    
+
+}
+.intro{
+    padding-top: 70px;
+    background-color: whitesmoke;
+    padding-bottom: 70px;
+}
+.intro h1{
+   letter-spacing: -2px;
+    display: inline;
+    padding-bottom: 80px;
+    font-family: initial;
+}
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 120px;
+    padding-left: 120px;
+    color: gray;
+    text-align: left;
+}
+.monthly{
+    background-color: royalblue;
+    /* margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+
+}
+.monthly table td img{
+    position: center;
+}
+.monthly table td{
+    /* position: center; */
+    
+     margin-left: 60px;
+    margin-right: 60px; 
+     padding-left: 13px;
+    padding-right: 45px; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.monthly table td H1{
+    font-family: initial;
+    letter-spacing: 1px;
+}
+.monthly table td H5{
+    font-family: initial;
+    display: inline;
+    letter-spacing: -1px;
+
+}
+
+#carouselExampleControls{
+	margin-top:54:59 AM 5/7/20200px;
+}
+
+.cardhead{
+    background-color: whitesmoke;
+    padding-top: 50px;
+}
+.cardhead h1{
+    display: inline;
+    font-family: initial;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    
+}
+
+.card-group {
+    padding-left: 100px;
+   
+    padding-right: 100px;
+   
+background-color: whitesmoke;
+
+}
+.card{
+    border: solid white 2px;
+    margin-bottom: 30px;
+  margin-left: 40px;
+ margin-right: 40px;
+padding-right: 70px;
+padding-left: 70px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-top: 30px;
+}
+
+
+/* 
+.card mb-3 {
+    display: inline;
+    border: solid white 2px;
+  margin-left: 20px;
+ margin-right: 20px;
+} */
+
+.card2, .marque2{
+    width: 100%;
+
+}
+/* 
+.card-group card card-body{
+    color: rgba(25, 0, 255, 0.863);
+    text-align: center;
+} */ */
